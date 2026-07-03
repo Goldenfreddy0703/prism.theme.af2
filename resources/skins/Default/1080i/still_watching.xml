@@ -115,16 +115,20 @@
                         <include content="DialogInfo_Button">
                             <param name="id">3001</param>
                             <param name="groupid">5012</param>
-                            <param name="label">$LOCALIZE[208]</param>
+                            <param name="label">$ADDON[plugin.video.prism 30560]</param>
                             <param name="include_hintlabel">true</param>
                         </include>
                         <include content="DialogInfo_Button">
                             <param name="id">3002</param>
                             <param name="groupid">5013</param>
-                            <param name="label">$LOCALIZE[222]</param>
+                            <param name="label">$ADDON[plugin.video.prism 30820]</param>
                             <param name="include_hintlabel">true</param>
-                            <onclick>SetFocus(3013)</onclick>
-                            <onclick>Action(Select)</onclick>
+                        </include>
+                        <include content="DialogInfo_Button">
+                            <param name="id">3003</param>
+                            <param name="groupid">5014</param>
+                            <param name="label">$ADDON[plugin.video.prism 30821]</param>
+                            <param name="include_hintlabel">true</param>
                         </include>
                     </control>
                 </control>
@@ -132,7 +136,7 @@
                 <!-- Separate group for icons -->
                 <control type="group">
                     <left>-377</left>
-                    <top>268</top>
+                    <top>280</top>
                     <height>70</height>
                     <bottom>0</bottom>
                     <control type="grouplist">
@@ -148,8 +152,14 @@
                             <height>60</height>
                         </control>
                         <control type="image">
-                            <texture>special://skin/extras/icons/xmark.png</texture>
+                            <texture>special://skin/extras/icons/eye2.png</texture>
                             <animation effect="fade" start="100" end="50" time="0" condition="!Control.HasFocus(3002)">Conditional</animation>
+                            <width>60</width>
+                            <height>60</height>
+                        </control>
+                        <control type="image">
+                            <texture>special://skin/extras/icons/disabled.png</texture>
+                            <animation effect="fade" start="100" end="50" time="0" condition="!Control.HasFocus(3003)">Conditional</animation>
                             <width>60</width>
                             <height>60</height>
                         </control>

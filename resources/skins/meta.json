@@ -1,7 +1,7 @@
 {
   "skin_name": "Arctic Fuse 2",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "author": "a4k",
-  "update_directory": "https://www.github.com/goldenfreddy0703/seren.theme.af2/zipball/master/",
-  "remote_meta": "https://raw.githubusercontent.com/goldenfreddy0703/seren.theme.af2/master/seren.theme.af2/resources/skins/meta.json"
+  "update_directory": "https://www.github.com/goldenfreddy0703/prism.theme.af2/zipball/master/",
+  "remote_meta": "https://raw.githubusercontent.com/goldenfreddy0703/prism.theme.af2/master/prism.theme.af2/resources/skins/meta.json"
 }
